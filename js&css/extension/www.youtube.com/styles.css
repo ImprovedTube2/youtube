@@ -737,6 +737,13 @@ html[it-theme]:not([it-theme=default]):not([it-theme=dark]) a.yt-simple-endpoint
 html[it-theme]:not([it-theme=default]):not([it-theme=dark]) yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {color: var(--yt-spec-text-primary) !important}
 html[it-theme]:not([it-theme=default]):not([it-theme=dark]) .yt-core-attributed-string--highlight-text-decorator .yt-core-attributed-string__link--display-type {color: var(--yt-spec-text-primary)}
 
+/* Background-coloor update (thank you @TrivCodez) */
+html[it-theme]:not([it-theme=default]) ytd-app, 
+html[it-theme]:not([it-theme=default]) ytd-browse-view, 
+html[it-theme]:not([it-theme=default]) ytd-watch-flexy,
+html[it-theme]:not([it-theme=default]) #page,
+html[it-theme]:not([it-theme=default]) #content { background-color: var(--yt-spec-base-background) !important; };
+
 /*BLACK*/
 html[it-theme=black] [dark],
 html[it-theme=black]:not([it-schedule=system_peference_dark]):not([it-schedule=system_peference_light]),
